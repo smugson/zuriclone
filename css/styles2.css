@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    font-family: "Graphik", sans-serif;    
+}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.nav img{
+    width: 130%;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link li{
+    padding: 0 50px;
+    list-style-type: none;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover{
+    background-color: gray;
+    padding: 20px 5px;
+}
+
+.link a:active{
+    border-bottom: 5px solid red;
+    background-color: #ffffff;
+}
+
+.hire-talent{
+    background-color: red;
+    /* margin-top: 10px; */
+    padding: 10px 20px;
+    align-self: center;
+    border-bottom-right-radius: 20px;
+    margin-left: 30px;
+}
+
+.hire-talent a{
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100vh;
+    padding-top: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.hero-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 110px;
+}
+
+.hero-text{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.hero-text h1{
+    font-size: 55px;
+}
+
+.talent{
+    color: red;
+}
+
+.hero-text p{
+    font-size: 24px;
+    color: gray;
+    padding-right: 200px;
+}
+
+.hero-text img{
+    width: 150px;
+    position: absolute;
+    left: 670px;
+    top: 300px;
+}
+
+.hero-img{
+    /* flex-basis: 50%; */
+}
+
+.hero-img img{
+    width: 500px;
+    right: 0;
+}
+
+.btn{
+    padding-right: 100px;
+}
+
+.btn button, .btn-hire button{
+    font-size: 24px;
+    padding: 15px 60px;
+    border-bottom-right-radius: 15px;
+    border: none;
+}
+
+.btn button:nth-of-type(1), .btn-hire button:nth-of-type(1){
+    background-color: #e7332b;
+}
+
+.btn button:nth-of-type(2), .btn-hire button:nth-of-type(2){
+    background-color: #585858;
+    margin: 10px;
+}
+
+.btn a, .btn-hire a{
+    text-decoration: none;
+    color: white;
+}
+
+.coverage{
+    background: url(../images/ZuriExperience/bgsection2.063bd869082548bafa74.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.coverage-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.coverage-left{
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.coverage-words{
+    padding-right: 20px;
+}
+
+.coverage-words span{
+    color: #e7332b;
+}
+
+.coverage-words h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+    line-height: 60px;
+    padding-bottom: 0px;
+}
+
+.coverage-trained{
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.coverage-talent{
+    margin-top: 5px;
+    font-size: 30px;
+    color: gray;
+}
+
+.coverage-right{
+    flex-basis: 50%;
+    padding-top: 100px;
+}
+
+.coverage-right img{
+    width: 500px;
+    float: right;
+}
+
+.count{
+    display: flex;
+}
+
+.countries{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.countries:nth-of-type(1){
+    margin-left: 0px;
+}
+
+.countries img{
+    width: 80%;
+    margin: auto;   
+}
+
+.skills{
+    margin-top: -40px;
+    background-color: #ffffff;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+.skills-container{
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.skills-container h1{
+    font-size: 50px;
+}
+
+.skills-talent{
+    color: #e7332b;
+}
+
+.skills-container img{
+    position: relative;
+    left: 1200px;
+    top: -150px;
+    * width: 280px; */
+    /* z-index: 0; */
+}
+
+.skillful{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    font-size: 24px;
+    margin-bottom: -70px;
+}
+
+.skillful p{
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #585858;
+    border-radius: 10px;
+}
+
+.hire{
+    /* height: auto; */
+    background-color: rgb(255, 248, 229);
+    margin-top: -20px;
+    padding-top: 80px;
+}
+
+.hire-container{
+    width: 85%;
+    margin: auto;
+}
+
+.hire-text{
+    text-align: center;
+    font-size: 40px;
+    font-family: Graphik;
+}
+
+.hire-us{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.hire-box{
+    font-size: 23px;
+    color: #585858;
+    height: 300px;
+    flex-basis: 32.3%;
+    max-width: 32.3%;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+    border-bottom-right-radius: 20px;
+}
+
+.hire-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.btn-hire{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hire-box:hover{
+    background-color: black;
+    color: white;
+}
+
+.rope{
+    position: relative;
+    left: -150px;
+    bottom: -20px;
+    width: 120%;
+}
+
+.footer{
+    background-color: rgb(22, 22, 23);
+    padding-top: 80px;
+    
+}
+
+.footer-container{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.footer-content{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.icon{
+    width: 45px;
+}
+
+.footer-text{
+    color: #fff!important;
+    font-family: Graphik!important;
+    font-size: 20px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    letter-spacing: .01em!important;
+    line-height: 140%!important;
+}

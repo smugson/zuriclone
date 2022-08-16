@@ -99,6 +99,7 @@ header{
 
 .hero-text h1{
     font-size: 55px;
+    margin-bottom: 0px;
 }
 
 .talent{
@@ -106,16 +107,19 @@ header{
 }
 
 .hero-text p{
+    margin-top: 0px;
     font-size: 24px;
     color: gray;
     padding-right: 200px;
 }
 
 .hero-text img{
-    width: 150px;
-    position: absolute;
-    left: 670px;
-    top: 300px;
+    width: 25%;
+    position: relative;
+    bottom: 50px;
+    left: 520px;
+    /* left: 670px;
+    top: 300px; */
 }
 
 .hero-img img{

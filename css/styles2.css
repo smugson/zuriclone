@@ -118,9 +118,6 @@ header{
     top: 300px;
 }
 
-.hero-img{
-    /* flex-basis: 50%; */
-}
 
 .hero-img img{
     width: 500px;
@@ -261,7 +258,7 @@ header{
     position: relative;
     left: 1200px;
     top: -150px;
-    * width: 280px; */
+    width: 280px;
     /* z-index: 0; */
 }
 
